@@ -1,8 +1,8 @@
 package Practise1;
-
-
 import java.util.Scanner;
-
+//Дано два числа a та b. Знайдіть гіпотенузу трикутника із заданими катетами.
+//Вхідні дані
+//У двох рядках вводяться два числа (числа цілі, позитивні, не перевищують 1000).
 public class Exercise1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
