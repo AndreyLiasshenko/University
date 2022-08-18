@@ -1,8 +1,21 @@
 package Practise1;
 
+
+import java.util.Scanner;
+
 public class Exercise1 {
     public static void main(String[] args) {
-        String s = "Hello world";
-        System.out.println(s);
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter first number");
+        int a = scanner.nextInt();
+        System.out.println("Enter second number");
+        int b = scanner.nextInt();
+        if (a > 1000 || a < 0 || b > 1000 || b < 0) {
+            System.out.println("Error");
+            return;
+        }
+
+        double result = Math.sqrt((a * a) + (b * b));
+        System.out.println("Result: "+result);
     }
 }
