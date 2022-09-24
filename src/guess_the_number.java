@@ -5,7 +5,6 @@ public class guess_the_number {
         int number = (int) (Math.random()*100);
         Scanner scanner = new Scanner(System.in);
         int input=0;
-        System.out.println(number);
         while (true) {
             input = scanner.nextInt();
             if (input == number) return true;
